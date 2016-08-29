@@ -26,7 +26,7 @@ To export it as static one, run the command below:
 $ npm run export
 ```
 
-[travis-image]:https://img.shields.io/travis/cognitom/felt-example.svg?style=flat-square
-[travis-url]:https://travis-ci.org/cognitom/felt-example
+[travis-image]:https://img.shields.io/travis/cognitom/felt-minimal-example.svg?style=flat-square
+[travis-url]:https://travis-ci.org/cognitom/felt-minimal-example
 [standard-image]:https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square
 [standard-url]:http://standardjs.com/
