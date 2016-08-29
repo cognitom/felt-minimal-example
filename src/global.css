@@ -1,0 +1,28 @@
+/* custom properties */
+:root {
+  --fontSize: 2rem;
+  --mainColor: white;
+  --highlightColor: hwb(190, 35%, 20%);
+}
+
+/* custom properties set & @apply rule */
+:root {
+  --centered: {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  };
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.message {
+  @apply --centered;
+  font-size: var(--fontSize);
+  color: var(--mainColor);
+  background-color: var(--highlightColor);
+  padding: 10px;
+}

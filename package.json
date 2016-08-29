@@ -1,0 +1,30 @@
+{
+  "name": "felt-minimal-example",
+  "version": "0.2.0",
+  "description": "A minimal example for Felt",
+  "private": true,
+  "homepage": "https://github.com/cognitom/felt-minimal-example",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cognitom/felt-minimal-example.git"
+  },
+  "author": "Tsutomu Kawamura",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cognitom/felt-minimal-example/issues"
+  },
+  "keywords": [
+    "felt"
+  ],
+  "devDependencies": {
+    "felt": "^0.2.5",
+    "felt-recipe-minimal": "^0.2.0",
+    "standard": "^8.0.0"
+  },
+  "scripts": {
+    "test": "npm run standard",
+    "standard": "standard src/**/*.js",
+    "start": "felt --src src --watch --debug",
+    "export": "felt --src src --export dist --debug"
+  }
+}
